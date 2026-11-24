@@ -69,6 +69,9 @@ def activity(name):
 
 def exercise():
     tap('android:id/button2')
+    find('brand_header')
+    find('days')
+    capture('01-launch')
     tap('detailed_list')
     activity('MultiDayActivity')
     find('graph')
@@ -85,7 +88,7 @@ try:
     shell('wm','dismiss-keyguard')
     adb('logcat','-c')
     launch()
-    capture('01-launch')
+    find('android:id/button2')
     exercise()
     capture('02-workflow')
     crashes=adb('logcat','-d','-b','crash')

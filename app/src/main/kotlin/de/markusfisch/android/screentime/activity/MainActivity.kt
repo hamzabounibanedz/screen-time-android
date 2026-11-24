@@ -60,7 +60,9 @@ class MainActivity : Activity() {
 	}
 	private val textPaint by lazy {
 		fillPaint(loadColor(R.color.text)).apply {
-			typeface = Typeface.DEFAULT_BOLD
+			typeface = if (android.os.Build.VERSION.SDK_INT >= 26) {
+				resources.getFont(R.font.brand_display)
+			} else Typeface.DEFAULT_BOLD
 		}
 	}
 

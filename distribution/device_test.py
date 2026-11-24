@@ -61,8 +61,7 @@ def activity(name):
     raise AssertionError('Expected foreground activity '+name)
 
 def exercise():
-    try: tap('Later') if find('Later',4) else None
-    except AssertionError: pass
+    tap('android:id/button2')
     tap('detailed_list')
     activity('MultiDayActivity')
     find('graph')

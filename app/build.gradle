@@ -5,11 +5,12 @@ android {
 	compileSdkVersion sdk_version
 
 	defaultConfig {
+		applicationId = "io.github.hamzabounibanedz.screentime"
 		minSdkVersion 11
 		testInstrumentationRunner 'de.markusfisch.android.screentime.database.DatabaseImportTest'
 		targetSdkVersion sdk_version
 
-		versionCode 16
+		versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInteger()
 		versionName '1.4.0'
 
 		manifestPlaceholders = [appName: '@string/app_name']

@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">Screen Time</string>
+	<string name="app_name">Daymeter</string>
 	<string name="recording">Scherm-gebeurtenissen bijhouden aan/uit</string>
 	<plurals name="days">
 		<item quantity="one">Vandaag</item>
@@ -36,7 +36,7 @@
 	<string name="tracking_screen_unavailable">Actief: Schermgebeurtenissen.\n\nAndroid-gebruiksgebeurtenissen zijn momenteel niet beschikbaar.</string>
 	<string name="tracking_unavailable">De registratiestatus is momenteel niet beschikbaar.</string>
 	<string name="usage_access_unavailable">Instellingen voor gebruikstoegang zijn niet beschikbaar op dit apparaat.</string>
-	<string name="usage_access_explanation">Met toegang tot Android-gebruiksgegevens kan Screen Time schermtijd herstellen na onderbrekingen van de app. Je kunt toegang toestaan in de Android-instellingen. Zonder toegang wordt schermtijd nog steeds bijgehouden zolang de registratieservice actief is.</string>
+	<string name="usage_access_explanation">Met toegang tot Android-gebruiksgegevens kan Daymeter schermtijd herstellen na onderbrekingen van de app. Je kunt toegang toestaan in de Android-instellingen. Zonder toegang wordt schermtijd nog steeds bijgehouden zolang de registratieservice actief is.</string>
 	<string name="allow_usage_access">Toegang toestaan</string>
 	<string name="later">Later</string>
 	<string name="day_reset">Dagwissel</string>

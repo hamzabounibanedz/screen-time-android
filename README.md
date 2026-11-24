@@ -1,9 +1,11 @@
 <!-- independent-distribution -->
-# ScreenTime for Android
+# Daymeter for Android
 
-Daily screen usage and history. This independently signed edition builds the [original 1.4.0 release](https://github.com/markusfisch/ScreenTime/tree/bed311891e042af0470a4f28325eac6eb4091bc2) from source. The upstream name, license and application features are preserved.
+Daily screen usage and history. This independently signed edition builds the [original 1.4.0 release](https://github.com/markusfisch/ScreenTime/tree/bed311891e042af0470a4f28325eac6eb4091bc2) from source. This edition adds a new native identity and a browser companion. Upstream attribution and licensing are included.
 
 [Download APK and AAB](https://github.com/hamzabounibanedz/screen-time-android/releases/latest) · [Cloud build and emulator results](https://github.com/hamzabounibanedz/screen-time-android/actions/workflows/distribution.yml)
+
+[Web companion](https://daymeter-focus.vercel.app) · [Install on Android](https://daymeter-focus.vercel.app/install)
 
 ![Scan for the Android installation page](distribution/install-qr.png)
 

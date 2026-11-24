@@ -1,10 +1,10 @@
 <resources>
-	<color name="primary">#4dc4e5</color>
-	<color name="primary_dark">#1c9bbf</color>
-	<color name="accent">#fff</color>
-	<color name="window_background">#082a34</color>
-	<color name="dial">#0c4151</color>
-	<color name="usage">#1c9bbf</color>
-	<color name="text">#fff</color>
-	<color name="background_progress">#8000</color>
+	<color name="primary">#543120</color>
+	<color name="primary_dark">#2b211d</color>
+	<color name="accent">#ffd18c</color>
+	<color name="window_background">#241e1a</color>
+	<color name="dial">#644833</color>
+	<color name="usage">#ffbc65</color>
+	<color name="text">#fff0da</color>
+	<color name="background_progress">#aa372d22</color>
 </resources>

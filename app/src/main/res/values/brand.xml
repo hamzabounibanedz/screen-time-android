@@ -1,0 +1,5 @@
+<resources>
+  <color name="brand_base">#41291f</color>
+  <color name="brand_accent">#ffbd58</color>
+  <string name="brand_wordmark" translatable="false">Daymeter</string>
+</resources>

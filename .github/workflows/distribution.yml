@@ -82,5 +82,5 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "ScreenTime 1.4.0 · Android" --notes "Independent build of [ScreenTime 1.4.0](https://github.com/markusfisch/ScreenTime/releases/tag/1.4.0). Download **screen-time-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
+          gh release create "android-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}" delivery/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Daymeter · Android" --notes "Independent build of [ScreenTime 1.4.0](https://github.com/markusfisch/ScreenTime/releases/tag/1.4.0). Download **screen-time-android.apk** to install. The AAB, checksums and emulator evidence are also attached. [Build and test log]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)."
 

@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">Skærmtid</string>
+	<string name="app_name">Daymeter</string>
 	<string name="recording">Optagelse af skærm tænd/slukket for begivenheder</string>
 	<plurals name="days">
 		<item quantity="one">I dag</item>
@@ -36,7 +36,7 @@
 	<string name="tracking_screen_unavailable">Aktiv: Skærmhændelser.\n\nAndroid-brugshændelser er ikke tilgængelige i øjeblikket.</string>
 	<string name="tracking_unavailable">Registreringsstatus er ikke tilgængelig i øjeblikket.</string>
 	<string name="usage_access_unavailable">Indstillinger for adgang til brugsdata er ikke tilgængelige på denne enhed.</string>
-	<string name="usage_access_explanation">Med adgang til Android-brugsdata kan Screen Time genskabe skærmtid efter afbrydelser af appen. Du kan give adgang i Android-indstillingerne. Uden adgang registreres skærmtiden stadig, mens registreringen kører.</string>
+	<string name="usage_access_explanation">Med adgang til Android-brugsdata kan Daymeter genskabe skærmtid efter afbrydelser af appen. Du kan give adgang i Android-indstillingerne. Uden adgang registreres skærmtiden stadig, mens registreringen kører.</string>
 	<string name="allow_usage_access">Tillad adgang</string>
 	<string name="later">Senere</string>
 	<string name="day_reset">Dagskifte</string>

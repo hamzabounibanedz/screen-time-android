@@ -11,7 +11,7 @@
 		android:orientation="vertical"
 		android:fitsSystemWindows="true">
 		<LinearLayout
-			android:id="@+id/prefix"
+			android:id="@+id/prefix" android:background="@color/dial"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:paddingLeft="16dp"

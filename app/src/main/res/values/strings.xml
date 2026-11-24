@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">Screen Time</string>
+	<string name="app_name">Daymeter</string>
 	<string name="recording">Recording screen on/off events</string>
 	<plurals name="days">
 		<item quantity="one">Today</item>
@@ -36,7 +36,7 @@
 	<string name="tracking_screen_unavailable">Active: Screen events.\n\nAndroid usage events are currently unavailable.</string>
 	<string name="tracking_unavailable">Tracking status is currently unavailable.</string>
 	<string name="usage_access_unavailable">Usage access settings are unavailable on this device.</string>
-	<string name="usage_access_explanation">With Android usage access, Screen Time can recover screen time after interruptions to the app. You can allow access in Android settings. Without it, screen time is still recorded while the tracker is running.</string>
+	<string name="usage_access_explanation">With Android usage access, Daymeter can recover screen time after interruptions to the app. You can allow access in Android settings. Without it, screen time is still recorded while the tracker is running.</string>
 	<string name="allow_usage_access">Allow access</string>
 	<string name="later">Later</string>
 	<string name="day_reset">Day Reset</string>
